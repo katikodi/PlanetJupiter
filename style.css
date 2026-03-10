@@ -1,3 +1,12 @@
+/* Universell reset */
+*{
+    font-size: 16px;
+}
+img{
+    width: 100px;
+}
+/* Universell reset END */
+
 /*FONTS*/
 .audiowide-regular {
   font-family: "Audiowide", sans-serif;
@@ -116,4 +125,4 @@ body {
 #heroimg1, #heroimg2, #heroimg3{
     width: 100px;
 }
-/* BILDEBOX END */
+/* HERO BILDEBOX END */
