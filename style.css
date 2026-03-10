@@ -1,4 +1,4 @@
-/*fonts*/
+/*FONTS*/
 .audiowide-regular {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
@@ -9,16 +9,88 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
-body {
-    margin: 0px;
-    padding: 0px;
+.kulim-park-extralight {
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-/*titles*/
+.kulim-park-light {
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.kulim-park-regular {
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*FONTS END*/
+
+/*TEXT*/
 h1.tekstlogo {
     font-family: "Audiowide";
+    padding-right: 200px;
+}
+a {
+    font-family: "Kulim Park";
+    font-weight: 300;
+    color: darksalmon;
+    text-decoration: none;
+}
+h1.header-text {
+    font-family: "Megrim";
+    text-shadow: 2px 1px 1px #A3492E;
+    font-size: 60px;
 }
 h1 {
-    font-family: "Megrim";
+    font-family: "Audiowide";
+    color: hsla(0, 0%, 100%, 0.75);
 }
+p {
+    font-family: "Kulim Park";
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+/*TEXT END*/
+
+/*SECTIONING*/
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img/fixedStarryBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(16, 15, 24, 0.9);
+    background-blend-mode: soft-light;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px 50px 5px 20px;
+    background: linear-gradient(45deg, #A16C5C90, hsl(257, 17%, 13%));
+}
+.header-section {
+    display: flex;
+    flex-direction: column;
+}
+.header-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#hero-section {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/*SECTIONING END*/
