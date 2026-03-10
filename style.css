@@ -3,7 +3,11 @@
     font-size: 16px;
 }
 img{
-    width: 100px;
+    width: 150px;
+}
+img:hover{
+    box-shadow: #A3492E 0px 10px 5px;
+    border-radius: 20px;
 }
 /* Universell reset END */
 
@@ -94,8 +98,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+.main-section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: top;
+    align-items: center;
+}
 #hero-section {
     margin: 50px;
+    height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +122,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    margin: 50px;
+    margin: 0px;
+    height: 50vw;
 }
 #heroimg1{
     opacity: 25%;
@@ -123,6 +135,47 @@ body {
     opacity: 100%;
 }
 #heroimg1, #heroimg2, #heroimg3{
-    width: 100px;
+    width: 150px;
 }
 /* HERO BILDEBOX END */
+
+/* main section box 1 & 2 */
+.main-boxes{
+    width: 50%;
+    height: 30vw;
+    /* border: 1px red solid; */
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-box1, #main-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#mainbox1-title, #mainbox2-title{
+    font-size: 2rem;
+}
+/* main section divide */
+.main-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-cards{
+    border: solid 1px red;
+    border-radius: 20px;
+    width: 400px;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: top;
+    text-align: center;
+}
