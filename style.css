@@ -88,9 +88,32 @@ body {
 #hero-section {
     margin: 50px;
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
 /*SECTIONING END*/
+
+/* Hero 5 bilder på rad med varierende opacity */
+.hero-imagebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 50px;
+}
+#heroimg1{
+    opacity: 25%;
+}
+#heroimg2{
+    opacity: 60%;
+}
+#heroimg3{
+    opacity: 100%;
+}
+#heroimg1, #heroimg2, #heroimg3{
+    width: 100px;
+}
+/* BILDEBOX END */
