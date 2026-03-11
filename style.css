@@ -105,6 +105,9 @@ body {
     flex-flow: row nowrap;
     justify-content: top;
     align-items: center;
+    background: #23202D;
+    background: linear-gradient(0deg,rgba(35, 32, 45, 0.538) 0%, rgba(119, 85, 79, 0.538) 40%, rgba(119, 85, 79, 0.538) 60%, rgba(35, 32, 45, 0.538) 100%);
+    height: 50vw;
 }
 #hero-section {
     margin: 0px;
@@ -147,7 +150,6 @@ body {
 .main-boxes{
     width: 50%;
     height: 30vw;
-    /* border: 1px red solid; */
     margin: 1rem;
     padding: 1rem;
     display: flex;
@@ -161,6 +163,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+#main-box1{
+    border-right:#23202D 2px solid;
 }
 #mainbox1-title, #mainbox2-title{
     font-size: 2rem;
@@ -188,7 +193,7 @@ body {
     box-shadow: 0px 10px 5px 0px #77554f43;
 }
 .main-cards:hover{
-    box-shadow: 15px 15px 10px 10px #e8e8e86a;
+    box-shadow: 5px 5px 10px 10px #e8e8e86a;
 }
 #card1-img{
     width: 80%;
