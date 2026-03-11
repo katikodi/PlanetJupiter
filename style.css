@@ -11,7 +11,7 @@ img:hover{
 }
 /* Universell reset END */
 
-/*FONTS*/
+/* FONTS */
 .audiowide-regular {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
@@ -37,23 +37,32 @@ img:hover{
   font-weight: 400;
   font-style: normal;
 }
-/*FONTS END*/
+/* FONTS END */
 
-/*TEXT*/
+/* TEXT */
 h1.tekstlogo {
     font-family: "Audiowide";
     padding-right: 200px;
+    font-size: 1.5em;
 }
 a {
     font-family: "Kulim Park";
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 17px;
     color: darksalmon;
     text-decoration: none;
+    letter-spacing: 2px;
+    padding: 0px 20px;
 }
-h1.header-text {
+a:hover {
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+h1.header-title {
     font-family: "Megrim";
     text-shadow: 2px 1px 1px #A3492E;
     font-size: 60px;
+    margin-right: 60px;
 }
 h1 {
     font-family: "Audiowide";
@@ -63,11 +72,21 @@ p {
     font-family: "Kulim Park";
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
+    text-wrap: wrap;
 }
-/*TEXT END*/
+p.header-text {
+    font-family: "Kulim Park";
+    font-weight: 400;
+    font-size: 1.3em;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-wrap: wrap;
+    text-align: center;
+    width: 275px;
+    text-shadow: 1px 1px 2px #A3492E;
+}
+/* TEXT END */
 
-/*SECTIONING*/
-
+/* SECTIONING */
 body {
     width: 100%;
     margin: 0px;
@@ -79,13 +98,12 @@ body {
     background-color: rgba(16, 15, 24, 0.9);
     background-blend-mode: soft-light;
 }
-
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
-    padding: 5px 50px 5px 20px;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
     background: linear-gradient(45deg, #A16C5C90, hsl(257, 17%, 13%));
 }
 .header-section {
@@ -94,11 +112,17 @@ body {
     flex-direction: column;
 }
 .header-box {
-    height: 40vw;
+    margin-top: 100px;
+    height: 40vh;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    background-image: url("img/jupiterTiltedWithEchoSmaller.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 50%;
+    background-size: contain;
 }
 .main-section{
     display: flex;
@@ -114,8 +138,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/*SECTIONING END*/
+/* SECTIONING END */
 
 /* Hero 5 bilder på rad med varierende opacity */
 .hero-imagebox{
