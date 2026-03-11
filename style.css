@@ -209,13 +209,38 @@ footer{
     background-clip: border;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 10vw;
+    border-top: white solid 1px;
 }
 .footer-btns{
     border-radius: 15px;
-    border: white 1px solid;
+    /* border: white 1px solid; */
+    /* background-color: #77554F; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+
+}
+#foot-btn1, #foot-btn2, #foot-btn3, #foot-btn4, #foot-btn5{
+    border: 1px white solid;
     background-color: #77554F;
+    border-radius: 15px 0px 15px 0px;
+    padding: 5px 15px;
+}
+#foot-btn1:hover, #foot-btn2:hover, #foot-btn3:hover, #foot-btn4:hover, #foot-btn5:hover{
+    background-color: #a3746c;
+    box-shadow: #77554f56 0px 5px;
+    color: white;
+}
+#footer-title{
+    background-color: #77554F;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px white solid;
+    color: white;
 }
