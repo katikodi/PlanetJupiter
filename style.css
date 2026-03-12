@@ -70,7 +70,8 @@ a.navbutton {
 }
 a.navbutton:hover {
     text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
+    color: rgb(242, 172, 149);
 }
 a.footbtn {
     font-family: "Kulim Park";
@@ -85,7 +86,6 @@ h1.header-title {
     font-family: "Megrim";
     text-shadow: 2px 1px 1px #A3492E;
     font-size: 90px;
-    margin: 0px 150px 0px 50px;
 }
 h1 {
     font-family: "Audiowide";
@@ -134,17 +134,19 @@ body {
     flex-direction: column;
 }
 .header-box {
-    margin: 100px 150px 0px 0px;
-    height: 40vh;
+    /*margin: 100px 150px 0px 0px;*/
+    height: 100vh;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     background-image: url("img/jupiterTiltedWithEchoSmaller.png");
     background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-size: 50%;
+    background-position-x: 45%;
+    background-position-y: 50%;
     background-size: contain;
+    background-size: 425px;
+    gap: 350px;
 }
 .main-section{
     display: flex;
@@ -153,7 +155,7 @@ body {
     align-items: center;
     background: #23202D;
     background: linear-gradient(0deg,rgba(35, 32, 45, 0.538) 0%, rgba(119, 85, 79, 0.538) 40%, rgba(119, 85, 79, 0.538) 60%, rgba(35, 32, 45, 0.538) 100%);
-    height: 50vw;
+    height: 100vh;
 }
 #hero-section {
     margin: 0px;
@@ -302,7 +304,7 @@ footer{
     width: 100%;
     height: 10vw;
     border-top: white solid 1px;
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 .footer-btns{
     border-radius: 15px;
