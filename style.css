@@ -9,6 +9,9 @@ img:hover{
     box-shadow: #A3492E 0px 10px 5px;
     border-radius: 150px;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Universell reset END */
 
 /* FONTS */
@@ -201,6 +204,14 @@ body {
 #mainbox1-title, #mainbox2-title{
     font-size: 2rem;
 }
+#mainbox1-img, #mainbox2-img{
+    width: 60%;
+}
+#mainbox1-img:hover, #mainbox2-img:hover{
+    border-radius: 500px;
+    box-shadow: 0px 5px 5px 0px #77554f43;
+
+}
 /* main section divide */
 .main-section2{
     height: 80vw;
@@ -213,27 +224,34 @@ body {
     border: solid 1px white;
     border-radius: 20px;
     width: 400px;
-    height: 40vw;
+    height: 35vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     background: #77554F;
-    background: linear-gradient(180deg,rgba(119, 85, 79, 1) 79%, rgba(35, 32, 45, 1) 100%);
+    background: linear-gradient(0deg,rgba(35, 32, 45, 0.538) 0%, rgba(119, 85, 79, 0.538) 40%, rgba(119, 85, 79, 0.538) 60%, rgba(35, 32, 45, 0.538) 100%);
     box-shadow: 0px 10px 5px 0px #77554f43;
 }
 .main-cards:hover{
     box-shadow: 5px 5px 10px 10px #e8e8e86a;
 }
 #card1-img{
-    width: 80%;
-    height: 30%;
-    border-radius: 15px;
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+}
+#card2-img{
+    width: 50%;
+}
+#card1-img:hover, #card2-img:hover{
+    box-shadow: none;
+    border-radius: 20px
 }
 #cards-title{
     font-size: 3rem;
-    margin:-20px;
+    /* margin:-20px; */
     padding: 10px;
 }
 /*MAIN SECTION END*/
