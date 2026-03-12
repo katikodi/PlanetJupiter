@@ -5,10 +5,10 @@
 img{
     width: 150px;
 }
-img:hover{
+/*img:hover{
     box-shadow: #A3492E 0px 10px 5px;
     border-radius: 150px;
-}
+}*/
 html{
     scroll-behavior: smooth;
 }
