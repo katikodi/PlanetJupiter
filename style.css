@@ -332,3 +332,26 @@ footer{
     border: 1px white solid;
     color: white;
 }
+/* to top btn */
+#totop-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#totop-btn:hover {
+  background-color: #555;
+}
