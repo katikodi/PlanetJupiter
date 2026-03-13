@@ -122,7 +122,7 @@ body {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("img/jupiterTiltedWithEchoSmaller.png");
+    background-image: url("img/jupiterHeaderBG.png");
     background-repeat: no-repeat;
     background-position-x: 45%;
     background-position-y: 50%;
@@ -219,6 +219,7 @@ p.sonder {
     justify-content: space-evenly;
     align-items: center;
     gap: 5px;
+    margin: 60px 0px;
 }
 .main-cards{
     border: solid 1px white;
@@ -267,7 +268,7 @@ p.sonder {
     padding: 0px 20px;
 }
 .cardText.bottom-space {
-    margin-bottom: 50px;
+    margin-bottom: 66px;
 }
 
 ul {list-style-type: listmarker;
@@ -301,6 +302,7 @@ footer{
     height: 10vw;
     border-top: white solid 1px;
     padding: 40px 0px;
+    margin-top: 150px;
 }
 .footer-btns{
     border-radius: 15px;
