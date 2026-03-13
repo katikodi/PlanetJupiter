@@ -12,8 +12,33 @@
 
 <body>
 <!--to top scroll btn↑ (plassert ned i høyre på skjermen)-->
-
 <a id="totop-btn" href="#header-section">↑</a>
+
+<!--Bakgrunnslyd-->
+<audio id="spaceAmbience" loop>
+    <source src="audio/ambience.mp3" type="audio/mpeg">
+</audio>
+
+<button id="sound-btn">🔊</button>
+
+<script>
+const soundBtn = document.getElementById("sound-btn");
+const ambience = document.getElementById("spaceAmbience");
+
+let playing = false;
+
+soundBtn.addEventListener("click", () => {
+    if (playing) {
+        ambience.pause();
+        soundBtn.textContent = "🔇";
+    } else {
+        ambience.play();
+        soundBtn.textContent = "🔊";
+    }
+    playing = !playing;
+});
+</script>
+<!--Bakgrunnslyd-knapp end -->
 
 <!-- HEADER SECTION START -->
 <header class="header-section" id="header-section">
