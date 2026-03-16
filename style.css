@@ -9,35 +9,35 @@ html{
 }
 /* FONTS */
 .audiowide-regular {
-  font-family: "Audiowide", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .megrim-regular {
-  font-family: "Megrim", system-ui;
-  font-weight: 400;
-  font-style: normal;
+     font-family: "Megrim", system-ui;
+     font-weight: 400;
+     font-style: normal;
 }
 .kulim-park-extralight {
-  font-family: "Kulim Park", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+     font-family: "Kulim Park", sans-serif;
+     font-weight: 200;
+     font-style: normal;
 }
 .kulim-park-light {
-  font-family: "Kulim Park", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .kulim-park-regular {
-  font-family: "Kulim Park", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .outfit {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 /* FONTS END */
 
@@ -271,12 +271,13 @@ p.sonder {
     margin-bottom: 66px;
 }
 
-ul {list-style-type: listmarker;
+ul {
+    list-style-type: listmarker;
 }
 @counter-style listmarker{
-system: cyclic;
-symbols: "☉";
-suffix: " "
+    system: cyclic;
+    symbols: "☉";
+    suffix: " "
 }
 li {
     text-align: start;
@@ -332,49 +333,49 @@ footer{
 
 /*TO TOP BTN START*/
 #totop-btn{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 100;
-  background-color: #2c283a;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
-  cursor: pointer;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #2c283a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 #totop-btn:hover {
-  background-color: #433e55;
+    background-color: #433e55;
 }
 /*TO TOP BTN END*/
 
 /*Ambience-BTN*/
 #sound-btn{
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 100;
-  background-color: #2c283a;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 22px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.2s;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    background-color: #2c283a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
 }
 #sound-btn:hover{
-  background-color: #433e55;
-  transform: scale(1.1);
+    background-color: #433e55;
+    transform: scale(1.1);
 }
